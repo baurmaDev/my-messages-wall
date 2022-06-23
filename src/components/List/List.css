@@ -1,0 +1,31 @@
+.comment{
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    border: 1px solid rgb(143,
+        117,
+        131);
+}
+.comment-content{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.comment-header{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.comment-metaData{
+    margin-right: 10px;
+}
+.comment-content p{
+    color: orange;
+}
+.text{
+    padding: 10px;
+}
+.list-container{
+    
+    z-index: 10;
+}
